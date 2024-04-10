@@ -1,0 +1,256 @@
+.numbered-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.number-button {
+  width: 50px;
+  height: 50px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  margin: 5px; /* Add margin to create space between buttons */
+}
+
+.number-button:hover {
+  border-color: #ff6b6b;
+  background-color: #ffbdbd;
+}
+
+
+.label11,
+.left-icon {
+  position: relative;
+  display: none;
+}
+.label11 {
+  width: 84px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.left-icon {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.children {
+  position: relative;
+  line-height: 36px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 19px;
+}
+.right-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button {
+  width: 64px;
+  border-radius: 6px;
+  background-color: #edf2f7;
+  border: 1px solid #63171b;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 21px;
+  gap: 8px;
+  min-height: 64px;
+  cursor: pointer;
+}
+.left-icon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.children1 {
+  width: 15px;
+  position: relative;
+  line-height: 36px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.right-icon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1 {
+  width: 64px;
+  border-radius: 6px;
+  background-color: #edf2f7;
+  border: 1px solid #63171b;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 23px;
+  gap: 8px;
+  min-height: 64px;
+  cursor: pointer;
+}
+.left-icon2 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.children2 {
+  position: relative;
+  line-height: 36px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 18px;
+}
+.right-icon2 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button2 {
+  width: 64px;
+  border-radius: 6px;
+  background-color: #edf2f7;
+  border: 1px solid #63171b;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 22px;
+  gap: 8px;
+  min-height: 64px;
+  cursor: pointer;
+}
+.left-icon3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.children3 {
+  position: relative;
+  line-height: 36px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 20px;
+}
+.right-icon3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button3 {
+  width: 64px;
+  border-radius: 6px;
+  background-color: #edf2f7;
+  border: 1px solid #63171b;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 21px;
+  gap: 8px;
+  min-height: 64px;
+  cursor: pointer;
+}
+.input-with-label3,
+.input5 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.input5 {
+  flex-direction: row;
+  gap: 20px;
+  font-size: 30px;
+  color: #1a202c;
+}
+.input-with-label3 {
+  flex-direction: column;
+  min-height: 64px;
+}
+.hint-text10 {
+  width: 198px;
+  position: relative;
+  line-height: 20px;
+  color: #475467;
+  display: none;
+}
+.main-container,
+.verification-code-input-field {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.verification-code-input-field {
+  width: 569px;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 64px;
+  z-index: 2;
+}
+.main-container {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+  color: #344054;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .children,
+  .children1,
+  .children2,
+  .children3 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .input5 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .children,
+  .children1,
+  .children2,
+  .children3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,352 @@
+.frame-inner {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-inner,
+.rectangle-group,
+.rectangle-section {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.rectangle-section {
+  background: linear-gradient(239.46deg, rgba(67, 61, 61, 0.8), transparent);
+  z-index: 1;
+}
+.rectangle-group {
+  margin: 0 !important;
+}
+.hint-text1,
+.label1 {
+  position: relative;
+  line-height: 20px;
+  display: none;
+}
+.label1 {
+  font-weight: 500;
+}
+.hint-text1 {
+  align-self: stretch;
+  color: #475467;
+}
+.my-profile {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.my-profile-wrapper {
+  width: 744px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  font-size: 40px;
+  color: #fff;
+}
+.supporting-text,
+.text {
+  position: relative;
+  line-height: 20px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.text {
+  font-size: 28px;
+  font-weight: 600;
+}
+.supporting-text {
+  width: 230px;
+  font-size: 14px;
+  display: none;
+}
+.table-cell,
+.text-and-supporting-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-cell {
+  align-self: stretch;
+  flex: 1;
+  border-bottom: 1px solid #eaecf0;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+}
+.supporting-text1,
+.text1 {
+  position: relative;
+  line-height: 20px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.text1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.supporting-text1 {
+  width: 230px;
+  font-size: 14px;
+  display: none;
+}
+.table-cell1,
+.text-and-supporting-text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-cell1 {
+  align-self: stretch;
+  flex: 1;
+  border-bottom: 1px solid #eaecf0;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+}
+.supporting-text2,
+.text2 {
+  position: relative;
+  line-height: 20px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.text2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.supporting-text2 {
+  width: 230px;
+  font-size: 14px;
+  display: none;
+}
+.table-cell2,
+.text-and-supporting-text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-cell2 {
+  align-self: stretch;
+  flex: 1;
+  border-bottom: 1px solid #eaecf0;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+}
+.supporting-text3,
+.text3 {
+  position: relative;
+  line-height: 20px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.text3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.supporting-text3 {
+  width: 230px;
+  font-size: 14px;
+  display: none;
+}
+.table-cell3,
+.text-and-supporting-text3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-cell3 {
+  align-self: stretch;
+  flex: 1;
+  border-bottom: 1px solid #eaecf0;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+}
+.supporting-text4,
+.text4 {
+  position: relative;
+  line-height: 20px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.text4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.supporting-text4 {
+  width: 230px;
+  font-size: 14px;
+  display: none;
+}
+.table-cell4,
+.text-and-supporting-text4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-cell4 {
+  align-self: stretch;
+  flex: 1;
+  border-bottom: 1px solid #eaecf0;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+}
+.supporting-text5,
+.text5 {
+  position: relative;
+  line-height: 20px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.text5 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.supporting-text5 {
+  width: 230px;
+  font-size: 14px;
+  display: none;
+}
+.table-cell5,
+.text-and-supporting-text5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-cell5 {
+  align-self: stretch;
+  flex: 1;
+  border-bottom: 1px solid #eaecf0;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+}
+.column,
+.content {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.column {
+  height: 432px;
+  width: 344px;
+  border-right: 1px solid #fff;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 344px;
+}
+.content {
+  margin: 0;
+  width: 744px;
+  background-color: #c53030;
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 20px;
+  z-index: 1;
+}
+.label-parent,
+.profile {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+}
+.label-parent {
+  width: 1267px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 10px solid #9b2c2c;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 48px 20px 183px 21px;
+  gap: 56px;
+  max-width: 100%;
+  z-index: 2;
+}
+.profile {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 62px 20px 62px 45px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 14px;
+  color: #344054;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .profile {
+    padding-left: 22px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .my-profile {
+    font-size: 32px;
+    line-height: 22px;
+  }
+  .label-parent {
+    padding-top: 31px;
+    padding-bottom: 119px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .column {
+    flex: 1;
+    min-width: 100%;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .my-profile {
+    font-size: 24px;
+    line-height: 17px;
+  }
+  .text,
+  .text1,
+  .text2,
+  .text3,
+  .text4,
+  .text5 {
+    font-size: 22px;
+    line-height: 16px;
+  }
+  .label-parent {
+    gap: 28px 56px;
+    padding-top: 20px;
+    padding-bottom: 77px;
+    box-sizing: border-box;
+  }
+}

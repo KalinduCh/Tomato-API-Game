@@ -1,0 +1,247 @@
+.frame-child9 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-child10,
+.frame-child9,
+.rectangle-parent4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frame-child10 {
+  background: linear-gradient(239.46deg, rgba(67, 61, 61, 0.8), transparent);
+  z-index: 1;
+}
+.rectangle-parent4 {
+  margin: 0 !important;
+}
+.hint-text6,
+.label6 {
+  position: relative;
+  line-height: 20px;
+  display: none;
+}
+.label6 {
+  font-weight: 500;
+}
+.hint-text6 {
+  align-self: stretch;
+  color: #475467;
+}
+.src3 {
+  height: 100%;
+  width: 100%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-icon3,
+.name3,
+.src3 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+}
+.name3 {
+  height: 100%;
+  width: 100%;
+  font-size: 9px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.image-icon3 {
+  height: 20px;
+  width: 20px;
+  border-radius: 9999px;
+  object-fit: cover;
+  z-index: 2;
+}
+.avatarbadge3 {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #38a169;
+  border: 0 solid #fff;
+  box-sizing: border-box;
+  display: none;
+  z-index: 3;
+}
+.avatar3 {
+  align-self: stretch;
+  height: 20px;
+  border-radius: 9999px;
+  background-color: #a0aec0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 10px;
+}
+.input-label {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0 0;
+  box-sizing: border-box;
+}
+.text8 {
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #fff;
+  text-align: left;
+}
+.placeholder-icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonsbutton5 {
+  border-radius: 8px;
+  background-color: #e53e3e;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid #c53030;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 11.5px 29.5px;
+  gap: 12px;
+}
+.buttonsbutton-container,
+.buttonsbutton5,
+.label-parent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonsbutton-container {
+  flex-direction: row;
+  padding: 0 2px;
+  text-align: center;
+  font-size: 1px;
+  color: #000;
+}
+.label-parent3 {
+  width: 1267px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 10px solid #9b2c2c;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 48px 27px 73px 28px;
+  gap: 41px;
+  max-width: 100%;
+  z-index: 2;
+}
+.background-overlay3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: rgba(12, 17, 29, 0.7);
+  overflow: hidden;
+  max-width: 100%;
+}
+.background-overlay2 {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(16px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.modal1,
+.try-again {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.modal1 {
+  height: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  max-width: 100%;
+  z-index: 3;
+}
+.try-again {
+  position: relative;
+  background-color: #fff;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 62px 74px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 14px;
+  color: #344054;
+  font-family: Inter;
+}
+@media screen and (max-width: 1275px) {
+  .try-again {
+    padding-left: 37px;
+    padding-right: 37px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .label-parent3 {
+    padding-top: 31px;
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .label-parent3 {
+    gap: 20px 41px;
+  }
+  .modal1 {
+    height: auto;
+    min-height: 1024;
+  }
+}
+@media screen and (max-width: 450px) {
+  .text8 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .label-parent3 {
+    padding-top: 20px;
+    padding-bottom: 31px;
+    box-sizing: border-box;
+  }
+}

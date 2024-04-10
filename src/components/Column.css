@@ -1,0 +1,120 @@
+.table-cell6,
+.table-cell7 {
+  width: 400px;
+  height: 72px;
+}
+.supporting-text6,
+.text11 {
+  position: relative;
+  line-height: 20px;
+}
+.text11 {
+  font-weight: 600;
+}
+.supporting-text6 {
+  width: 230px;
+  font-size: 14px;
+  display: none;
+}
+.text-and-supporting-text6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-cell8 {
+  border-bottom: 1px solid #eaecf0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+}
+.table-cell8,
+.table-cell9 {
+  width: 400px;
+  height: 72px;
+}
+.supporting-text7,
+.text12 {
+  position: relative;
+  line-height: 20px;
+}
+.text12 {
+  font-weight: 600;
+}
+.supporting-text7 {
+  width: 230px;
+  font-size: 14px;
+  display: none;
+}
+.text-and-supporting-text7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-cell10 {
+  width: 400px;
+  height: 72px;
+  border-bottom: 1px solid #eaecf0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+}
+.supporting-text8,
+.text13 {
+  position: relative;
+  line-height: 20px;
+}
+.text13 {
+  font-weight: 600;
+}
+.supporting-text8 {
+  width: 230px;
+  font-size: 14px;
+  display: none;
+}
+.text-and-supporting-text8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-cell11 {
+  width: 400px;
+  height: 72px;
+  border-bottom: 1px solid #eaecf0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+}
+.column1 {
+  flex: 1;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 260px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 28px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .text11,
+  .text12,
+  .text13 {
+    font-size: 22px;
+    line-height: 16px;
+  }
+}

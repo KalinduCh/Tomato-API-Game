@@ -1,0 +1,106 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.outer-frame-icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.inner-frame,
+.outer-frame,
+.outer-frame-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.outer-frame {
+  background: linear-gradient(239.46deg, rgba(67, 61, 61, 0.8), transparent);
+  z-index: 1;
+}
+.inner-frame {
+  margin: 0 !important;
+}
+.input-field-wrapper {
+  width: 494px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.first-button1,
+.signup {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.first-button1 {
+  width: 1267px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 10px solid #9b2c2c;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 48px 365px 251px;
+  gap: 107px;
+  max-width: 100%;
+  z-index: 2;
+}
+.signup {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: center;
+  padding: 62px 20px 62px 45px;
+  opacity: 0;
+  letter-spacing: normal;
+}
+.signup.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+@media screen and (max-width: 1200px) {
+  .first-button1 {
+    padding-left: 182px;
+    padding-right: 182px;
+    box-sizing: border-box;
+  }
+  .signup {
+    padding-left: 22px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .first-button1 {
+    padding-top: 31px;
+    padding-bottom: 163px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .first-button1 {
+    gap: 53px 107px;
+    padding-left: 91px;
+    padding-right: 91px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .first-button1 {
+    gap: 27px 107px;
+    padding: 20px 20px 106px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,124 @@
+.src6 {
+  height: 100%;
+  width: 100%;
+  font-size: 1px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-icon6,
+.name6,
+.src6 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+}
+.name6 {
+  height: 100%;
+  width: 100%;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.image-icon6 {
+  height: 40px;
+  width: 40px;
+  border-radius: 9999px;
+  object-fit: cover;
+  z-index: 2;
+}
+.avatarbadge6 {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #38a169;
+  border: 0 solid #fff;
+  box-sizing: border-box;
+  display: none;
+  z-index: 3;
+}
+.avatar6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #a0aec0;
+  height: 40px;
+  width: 40px;
+  border-radius: 9999px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 10px;
+}
+.column-table-cell {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.column-table-cell-parent-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 0 0;
+}
+.placeholder-icon7 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonsbutton17 {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #e53e3e;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid #c53030;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 28.5px 20px;
+  gap: 12px;
+  text-align: left;
+  font-size: 48px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .column-table-cell {
+    font-size: 38px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .buttonsbutton17 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .column-table-cell {
+    font-size: 29px;
+    line-height: 17px;
+  }
+}

@@ -1,0 +1,43 @@
+.supporting-text9,
+.text14 {
+  position: relative;
+  line-height: 20px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.text14 {
+  font-size: 28px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 85px;
+}
+.supporting-text9 {
+  width: 230px;
+  font-size: 14px;
+  display: none;
+}
+.text-and-supporting-text9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-cell12 {
+  cursor: pointer;
+  border: 0;
+  padding: 26px 20px;
+  background-color: transparent;
+  align-self: stretch;
+  border-bottom: 1px solid #eaecf0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 450px) {
+  .text14 {
+    font-size: 22px;
+    line-height: 16px;
+  }
+}

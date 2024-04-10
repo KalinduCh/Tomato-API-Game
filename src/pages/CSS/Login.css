@@ -1,0 +1,246 @@
+.main-frame-child {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.main-frame,
+.main-frame-child,
+.main-frame-item {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.main-frame-item {
+  background: linear-gradient(239.46deg, rgba(67, 61, 61, 0.8), transparent);
+  z-index: 1;
+}
+.main-frame {
+  margin: 0 !important;
+}
+.input,
+.label {
+  font-family: Inter;
+}
+.label {
+  width: 0;
+  height: 20px;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #344054;
+  text-align: left;
+  display: inline-block;
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 60px;
+  font-size: 16px;
+  color: #000;
+}
+.input-with-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.hint-text {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Inter;
+  color: #475467;
+  text-align: left;
+  display: inline-block;
+}
+.input-field {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.bilockalt-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.first-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+}
+.text-instance {
+  width: calc(100% - 58px);
+  border: 0;
+  outline: 0;
+  font-family: Inter;
+  font-size: 16px;
+  background-color: transparent;
+  height: 24px;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 159px;
+  padding: 0;
+}
+.help-icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.frame-with-icons,
+.input-field-parent,
+.input1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-with-icons {
+  flex-direction: column;
+  padding: 4px 0 0;
+}
+.input-field-parent,
+.input1 {
+  align-self: stretch;
+}
+.input1 {
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid #d0d5dd;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 18px 11px;
+  gap: 8px;
+  z-index: 1;
+  margin-top: -10px;
+}
+.input-field-parent {
+  flex-direction: column;
+}
+.buttonsbutton,
+.buttonsbutton1 {
+  align-self: stretch;
+  flex: 1;
+}
+.buttonsbutton1 {
+  cursor: pointer;
+}
+.buttons-with-text {
+  align-self: stretch;
+  height: 145px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.buttons-with-text,
+.frame-parent,
+.label-frame {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent {
+  margin: 0;
+  width: 320px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 72px;
+}
+.label-frame {
+  width: 492px;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.buttonsbutton-parent,
+.login {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.buttonsbutton-parent {
+  width: 1267px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 10px solid #9b2c2c;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 48px 365px 282px;
+  gap: 94px;
+  max-width: 100%;
+  z-index: 2;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: center;
+  padding: 62px 20px 62px 45px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .buttonsbutton-parent {
+    padding-left: 182px;
+    padding-right: 182px;
+    box-sizing: border-box;
+  }
+  .login {
+    padding-left: 22px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .buttonsbutton-parent {
+    padding-top: 31px;
+    padding-bottom: 183px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .buttonsbutton-parent {
+    gap: 47px 94px;
+    padding-left: 91px;
+    padding-right: 91px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .buttonsbutton,
+  .buttonsbutton1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    gap: 36px 72px;
+  }
+  .buttonsbutton-parent {
+    gap: 23px 94px;
+    padding: 20px 20px 119px;
+    box-sizing: border-box;
+  }
+}
